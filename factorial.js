@@ -1,4 +1,4 @@
-function fact(n){
+function factorial(n){
 	let fact = 1
 	for(let i=1; i<=n; i++){
 		fact *= i
@@ -6,4 +6,4 @@ function fact(n){
 	return fact
 }
 
-console.log(fact(4))
+console.log(factorial(4))
